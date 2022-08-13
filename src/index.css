@@ -13,22 +13,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-h2{
-  display:block;
-  width: fit-content;
-  margin:10px auto;
-  padding:5px 0;
-}
-h2::after{
-  position: absolute;
-  bottom:0%;
-  left:0%;
-  content:'';
-  width:50%;
-  height:4px;
-  background-color:rgb(248, 82, 134) ;
-  transition:all .5s ease-in;
-}
-h2:hover::after{
-  width:100%;
-}
+
+

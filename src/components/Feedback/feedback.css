@@ -3,14 +3,16 @@
     padding:30px 80px;
 }
 .feedback-container{
-    width:1000px;
+    max-width:1000px;
     display: flex;
+    flex-wrap: wrap;
     padding:10px;
     margin:30px auto;
     justify-content:space-between;
 }
 .feedback-container>div{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 25px;
     padding:20px; 
 }
 .feedback-container div img{
@@ -33,12 +35,7 @@
     font-weight:bold;
 }
 .rating{
-    display: flex;
     margin-top:10px;
-    color:rgb(248, 82, 134);
-}
-.like{
-    transform: scale(1);
 }
 
 

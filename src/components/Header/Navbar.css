@@ -41,7 +41,7 @@ ul li a{
     bottom: 0%;
     width: 0;
     height:3px;
-    background-color:red;
+    background-color:rgb(248, 82, 134);
     transition: all 0.4s ease;
 }
 .nav2-container ul li:hover::after{
