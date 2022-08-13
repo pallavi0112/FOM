@@ -8,7 +8,7 @@ import Card from './Card';
 function Feedback() {
   const [ratingValue, setRatingValue] = useState(3);
   return (
-    <div className='feedback'>
+    <section className='feedback'>
         <Heading heading="Happy Customers"/>
         <div className='feedback-container'>
              <Card 
@@ -34,7 +34,7 @@ function Feedback() {
              />
               
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,8 +1,22 @@
 .feedback{
+    width:100%;
     position: relative;
     padding:30px 80px;
 }
+.feedback::before{
+    position:absolute;
+    content:'';
+    top: 0%;
+    left: 0%;
+    width:100%;
+    height:70%;
+    background:url('../../Images/feedback-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 .feedback-container{
+    position: relative;
     max-width:1000px;
     display: flex;
     flex-wrap: wrap;
