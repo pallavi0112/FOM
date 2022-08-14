@@ -24,6 +24,10 @@
     padding: 20px 50px;
     margin: 20px auto 0;
 }
+.footer__area .footer-container ul li:hover a{
+    color: #000;
+    text-decoration:none;
+}
 .footer__area .footer-container .top-container{
     width:1000px;
     display: flex;
@@ -61,7 +65,6 @@ a{
 }
 .fa{
    transform: scale(0.5); 
-   color: #fff;
 }
 .footer__area .footer-container .top-container .log-in p{
         text-align: center;
