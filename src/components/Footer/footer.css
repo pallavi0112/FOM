@@ -58,13 +58,16 @@
     align-items: center;
     flex-direction: row;
     color: #fff;
+    margin-top:15px;
+}
+.footer__area .top-container .social__links a{
+    font-size:1.5rem;
+    color: rgb(40, 40, 40);
+    margin:0 8px;
 }
 a{
     text-decoration:none ;
     font-weight: 600;
-}
-.fa{
-   transform: scale(0.5); 
 }
 .footer__area .footer-container .top-container .log-in p{
         text-align: center;
@@ -98,6 +101,7 @@ a{
     background:rgb(248, 82, 134);
     border:1px solid rgb(248, 82, 134);
     border-radius:7px;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;

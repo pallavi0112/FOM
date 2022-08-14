@@ -30,8 +30,12 @@ function Topsells() {
                     </div>
                 </div>
                 <div className='right2'>
-                    <p>Meditation means letting go of our baggage, letting go of all the pre-rehearsed stories and inner-dialogue that we’ve grown so attached to</p>
-                    <img src={right2} alt={right2}/>        
+                    <img src={right2} alt={right2}/> 
+                    <div>
+                    <i class="fa fa-quote-left"></i>
+                    <span>Meditation means letting go of our baggage, letting go of all the pre-rehearsed stories and inner-dialogue that we’ve grown so attached to</span>
+                    <i class="fa fa-quote-right"></i>
+                    </div>       
                 </div>
             </div>
     </div>

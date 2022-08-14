@@ -11,7 +11,9 @@ function Feedback() {
     <section className='feedback'>
       <Heading heading="Happy Customers" />
       <div className='quotes'>
-        <p><i class="fa fa-quote-left"></i>In tough times, It's harder and even more important to keep our customers happy<i class="fa fa-quote-right"></i></p>
+        <i class="fa fa-quote-left"></i>
+        <span>In tough times, It's harder and even more important to keep our customers happy</span>
+        <i class="fa fa-quote-right"></i>
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">

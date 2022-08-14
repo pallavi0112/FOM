@@ -1,11 +1,6 @@
 import React from 'react'
 import './footer.css';
 import logo from '../../Images/logo.jpg';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import Twitter from '@material-ui/icons/Twitter';
-import EmailIcon from '@material-ui/icons/Email';
 function Footer() {
     return (
         <>
@@ -28,14 +23,15 @@ function Footer() {
                         <p>Get the latest Updates about Your Favorit Products</p>
                         <form id="form" class="subscribe__form">
                             <input type="email" id="email" name="EMAIL" placeholder="E-mail Address" autocomplete="off" />
-                            <button type="submit"><EmailIcon class="fa"/></button>
+                            <button type="submit"><i class="fa fa-envelope"></i></button>
                         </form>
                         </div>
                         <div class="social__links">
-                            <a href="/"><FacebookIcon class="fa" /></a>
-                            <a href="/"><InstagramIcon class="fa"/></a>
-                            <a href="/"><Twitter class="fa"/></a>
-                            <a href="/"><LinkedInIcon class="fa"/></a>
+                            <a href="/"><i class="fa fa-google-plus"></i></a>
+                            <a href="/"><i class="fa fa-facebook-f"></i></a>
+                            <a href="/"><i class="fa fa-instagram"></i></a>
+                            <a href="/"><i class="fa fa-linkedin"></i></a>
+                            <a href="/"><i class="fa fa-twitter"></i></a>
                         </div>
                     </div>
                     <div className='bottom-container'>

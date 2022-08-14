@@ -1,8 +1,13 @@
 .products{
     position: relative;
-    padding:30px 80px;
+    padding:30px 80px 20px;
 }
 h3 a{
+    font-size:1.2rem;
+    text-decoration: none;
+    color: black;
+}
+h3:hover a{
     text-decoration: none;
     color: black;
 }
