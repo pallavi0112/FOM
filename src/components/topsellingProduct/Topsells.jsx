@@ -1,10 +1,10 @@
 import React from 'react';
 import './topsells.css';
 import Heading from '../Heading';
-import meditationChair from '../../Images/meditationChair.jpg';
-import yogaChair from '../../Images/yogaChair.jpg';
-import memoryFoam from '../../Images/memoryFoam.jpg';
-import sleepMask from '../../Images/sleepMask.jpg';
+import meditationChair from '../../Images/meditationChair.png';
+import yogaChair from '../../Images/yogaChair.png';
+import memoryFoam from '../../Images/memoryFoam.png';
+import sleepMask from '../../Images/sleepMask.png';
 import right2 from '../../Images/right2.jpg';
 function Topsells() {
   return (
